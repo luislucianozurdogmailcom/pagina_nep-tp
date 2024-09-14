@@ -41,17 +41,17 @@ export default function App(page) {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
       <NavbarItem isActive={page.page == 'Home'}>
-          <Link href="#" color={page.page == 'Home' ? 'warning' : 'foreground'}>
+          <Link href="/home" color={page.page == 'Home' ? 'warning' : 'foreground'}>
             Home
           </Link>
         </NavbarItem>
         <NavbarItem isActive={page.page == 'Group'}>
-          <Link href="#" color={page == 'Group' ? 'warning' : 'foreground'}>
+          <Link href="/group" color={page.page == 'Group' ? 'warning' : 'foreground'}>
             Group 
           </Link>
         </NavbarItem>
         <NavbarItem isActive={page.page == 'Research'}>
-          <Link href="#" color={page.page == 'Research' ? 'warning' : 'foreground'}>
+          <Link href="/research" color={page.page == 'Research' ? 'warning' : 'foreground'}>
             Research
           </Link>
         </NavbarItem>
@@ -85,7 +85,7 @@ export default function App(page) {
               color={
                 item == page.page ? 'warning' : 'foreground'
               }
-              href="#"
+              href={`/${item}`}
               size="lg"
             >
               {item}

@@ -4,14 +4,15 @@ import './index.css';
 import 'font-awesome/css/font-awesome.min.css';
 import App from './App';
 import { NextUIProvider } from '@nextui-org/react';
+import {BrowserRouter} from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <NextUIProvider>
       <App />
     </NextUIProvider>
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

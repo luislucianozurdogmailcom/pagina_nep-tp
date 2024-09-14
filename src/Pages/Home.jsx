@@ -2,8 +2,8 @@
 import React from 'react';
 // import NextUIExample from '../Components/NextUIExample';
 import Navbar from '../Components/Navbar';
-import Coverpage from '../Components/Coverpage';
-
+import Coverpage from '../Components/HomeComponents/Coverpage';
+import BackgroundVideo from '../Components/HomeComponents/BackgroundVideo';
 
 const Home = () => {
   return (
@@ -12,7 +12,8 @@ const Home = () => {
       <Navbar page='Home'/>
       
       {/*Portada de página principal*/}
-      <Coverpage />
+      {/*<Coverpage />*/}
+      <BackgroundVideo />
       
       {/*<NextUIExample />*/}
       <footer className="w-full bg-gray-800 p-4 text-white text-center">
