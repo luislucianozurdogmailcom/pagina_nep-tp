@@ -108,44 +108,44 @@ function Container(fondo) {
   ]
 
   return (
-    <div className={`h-full w-screen px-10 pb-10 ${fondo.fondo ? 'bg-center bg-cover  lg:bg-[url("./Assets/fondo_hexagonal2.png")]' : ' bg-gradient-to-t from-slate-200 via-slate-200 to-slate-200'}`}>
-        <div className='grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 lg:gap-10 max-w-7xl relative z-10'>
+    <div className={`h-full w-screen pb-10 ${fondo.fondo ? 'bg-gradient-to-t from-slate-200 via-slate-200 to-slate-200' : ' bg-gradient-to-t from-slate-200 via-slate-200 to-slate-200'}`}>
+        <div className='grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 max-w-7xl relative z-10 gap-5'>
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
                 <span className='text-5xl font-extralight text-black'>
-                    Researchers
+                    <span className='text-orange-400 font-bold'>Re</span>searchers
                 </span>
             </div>
             {personas_investigadoras.map((item, index) => (
-                <div className='col-span-1 '>
+                <div className='col-span-1 mx-5'>
                 <ReserchCard person={{name: item.name, ocupation: item.ocupation, contact: item.contact, image: item.image, email:item.email}}/>
             </div>
             ))}
 
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
                 <span className='text-5xl font-extralight'>
-                Postdoctoral Students
+                    <span className='text-orange-400 font-bold'>Post</span>doctoral Students
                 </span>
             </div>
             {personas_postdoctorales.map((item, index) => (
-                <div className='col-span-1 '>
+                <div className='col-span-1 mx-5'>
                 <ReserchCard person={{name: item.name, ocupation: item.ocupation, contact: item.contact, image: item.image, email:item.email}}/>
             </div>
             ))}
 
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
                 <span className='text-5xl font-extralight'>
-                PHD Students
+                    <span className='text-orange-400 font-bold'>PHD</span> Students
                 </span>
             </div>
             {phd_students.map((item, index) => (
-                <div className='col-span-1 '>
+                <div className='col-span-1 mx-5'>
                 <ReserchCard person={{name: item.name, ocupation: item.ocupation, contact: item.contact, image: item.image, email:item.email}}/>
             </div>
             ))}
 
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
                 <span className='text-5xl font-extralight'>
-                Undergraduate
+                    <span className='text-orange-400 font-bold'>Un</span>dergraduate
                 </span>
             </div>
             {undergraduate.map((item, index) => (

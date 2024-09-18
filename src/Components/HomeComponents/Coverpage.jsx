@@ -3,7 +3,7 @@ import Swiper from './Swiper';
 
 function Coverpage(fondo) {
     return (
-        <div className={`w-full h-screen p-6 grid lg:grid-cols-2 grid-cols-1 gap-4 ${fondo.fondo ? 'bg-center bg-cover bg-no-repeat lg:bg-[url("./Assets/fondo_hexagonal3.png")] bg-[url("./Assets/fondo_hexagonal4.png")]' : ''}`}>
+        <div className={`w-full h-screen p-6 grid lg:grid-cols-2 grid-cols-1 gap-4 ${fondo.fondo ? '' : ''}`}>
 
             <div className='col-span-1 justify-center flex flex-col items-center'>
                 <span className={`text-8xl font-extralight ${fondo.theme_dark ? 'text-yellow-200':'text-yellow-600'}`}>

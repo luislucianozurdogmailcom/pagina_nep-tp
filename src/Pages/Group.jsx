@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar';
 import Container from '../Components/GroupComponents/Container';
 import BackgroundVideo from '../Components/GroupComponents/BackgroundVideoGroup';
+import Group_text from '../Components/GroupComponents/Group_text';
 
 function Group() {
   return (
@@ -10,6 +11,7 @@ function Group() {
       {/*Barrita de navegación*/}
       <Navbar page='Group'/>
       
+      <Group_text />
       <Container fondo={false}/>
       
       {/*<NextUIExample />*/}
