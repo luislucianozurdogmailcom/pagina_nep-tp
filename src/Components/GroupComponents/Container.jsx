@@ -3,6 +3,7 @@ import ReserchCard from './ReserchCard'
 
 function Container(fondo) {
 
+  const backgroundImage = require('../../Assets/fondo_research.png');
   const personas_investigadoras = [
     {
         name:'M. Florencia Carusela'
@@ -108,10 +109,15 @@ function Container(fondo) {
   ]
 
   return (
-    <div className={`h-full w-screen pb-10 ${fondo.fondo ? 'bg-gradient-to-t from-slate-200 via-slate-200 to-slate-200' : ' bg-gradient-to-t from-slate-200 via-slate-200 to-slate-200'}`}>
+    <div className={`h-full w-screen pb-10`}
+    style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}>
         <div className='grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 max-w-7xl relative z-10 gap-5'>
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
-                <span className='text-5xl font-extralight text-black'>
+                <span className='text-5xl font-extralight text-gray-100'>
                     <span className='text-orange-400 font-bold'>Re</span>searchers
                 </span>
             </div>
@@ -121,8 +127,10 @@ function Container(fondo) {
             </div>
             ))}
 
+            <div className='h-3 bg-orange-400 mt-10 2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1'></div>
+            
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
-                <span className='text-5xl font-extralight'>
+                <span className='text-5xl font-extralight text-gray-100'>
                     <span className='text-orange-400 font-bold'>Post</span>doctoral Students
                 </span>
             </div>
@@ -131,9 +139,11 @@ function Container(fondo) {
                 <ReserchCard person={{name: item.name, ocupation: item.ocupation, contact: item.contact, image: item.image, email:item.email}}/>
             </div>
             ))}
-
+            
+            <div className='h-3 bg-orange-400 mt-10 2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1'></div>
+            
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
-                <span className='text-5xl font-extralight'>
+                <span className='text-5xl font-extralight text-gray-100'>
                     <span className='text-orange-400 font-bold'>PHD</span> Students
                 </span>
             </div>
@@ -143,8 +153,10 @@ function Container(fondo) {
             </div>
             ))}
 
+            <div className='h-3 bg-orange-400 mt-10 2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1'></div>
+            
             <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
-                <span className='text-5xl font-extralight'>
+                <span className='text-5xl font-extralight text-gray-100'>
                     <span className='text-orange-400 font-bold'>Un</span>dergraduate
                 </span>
             </div>

@@ -4,6 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 export default function InvestigationCard(text, image) {
   return (
+    <a href="/research">
     <Card className="w-10/12 mx-auto h-42 lg:m-10">
       <CardHeader className="flex gap-3">
       <div>
@@ -30,5 +31,6 @@ export default function InvestigationCard(text, image) {
       </CardFooter>
       */}
     </Card>
+    </a>
   );
 }

@@ -7,7 +7,7 @@ import 'font-awesome/css/font-awesome.min.css';
 export default function ReserchCard(person) {
 
   return (
-    <Card className="py-4 border-none bg-background/60 dark:bg-default-100/50" isBlurred>
+    <Card className="py-4 border-none dark:bg-default-100/50" isBlurred>
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
         <h4 className="font-extralight text-3xl">{person.person.name}</h4>
         <Accordion>

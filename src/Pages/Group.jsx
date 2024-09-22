@@ -6,8 +6,9 @@ import BackgroundVideo from '../Components/GroupComponents/BackgroundVideoGroup'
 import Group_text from '../Components/GroupComponents/Group_text';
 
 function Group() {
+
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex flex-col items-center justify-center">
       {/*Barrita de navegación*/}
       <Navbar page='Group'/>
       
