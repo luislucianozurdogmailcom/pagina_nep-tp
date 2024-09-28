@@ -54,7 +54,7 @@ function Research_lines() {
   };
 
   return (
-    <div className="relative min-h-screen w-full pb-10">
+    <div className="relative h-full w-full">
       <video
         autoPlay
         loop
@@ -66,11 +66,12 @@ function Research_lines() {
         <source src={require('../../Assets/bacterias.mp4')} type="video/mp4" />
         Tu navegador no soporta la etiqueta de video.
       </video>
-      <div className="relative z-10 grid lg:grid-cols-2 grid-cols-1 gap-10 my-10 text-center px-10">
-        <div className='col-span-1 text-white text-4xl font-extralight h-full flex justify-center items-center min-h-40'>
+      <div className="min-h-screen relative z-10 grid lg:grid-cols-2 grid-cols-1 text-center px-auto mx-auto max-w-7xl">
+        <div className='col-span-1 text-white text-5xl font-extralight h-full flex justify-center items-center min-h-40'>
           Research <span className='ml-2 font-bold text-orange-400'>Lines</span>
         </div>
-        <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg p-5">
+        <div className="flex flex-col justify-center">
+          <div className='bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg p-5'>
           <Table color='default' aria-label="Example table with dynamic content">
             <TableHeader columns={columns}>
               {(column) => <TableColumn className='bg-orange-300' key={column.key}>{column.label}</TableColumn>}
@@ -83,8 +84,10 @@ function Research_lines() {
               )}
             </TableBody>
           </Table>
+          </div>
         </div>
       </div>
+      <div className='h-3 bg-orange-400'></div>
     </div>
   );
 }

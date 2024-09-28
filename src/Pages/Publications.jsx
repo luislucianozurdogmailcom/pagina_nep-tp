@@ -1,19 +1,19 @@
 import React from 'react'
 
 import Navbar from '../Components/Navbar';
-import Container from '../Components/GroupComponents/Container';
-import BackgroundVideo from '../Components/GroupComponents/BackgroundVideoGroup';
-import Group_text from '../Components/GroupComponents/Group_text';
+import Group_text from '../Components/PublicationsComponents/Group_text';
+import Publication_list from '../Components/PublicationsComponents/Publication_list'
 
-function Group() {
+function Publications() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       {/*Barrita de navegación*/}
-      <Navbar page='Group'/>
+      <Navbar page='Publications'/>
       
       <Group_text />
-      <Container fondo={false}/>
+
+      <Publication_list />
       
       {/*<NextUIExample />*/}
       <footer className="w-full bg-gray-800 p-4 text-white text-center">
@@ -23,4 +23,4 @@ function Group() {
   )
 }
 
-export default Group
+export default Publications

@@ -6,8 +6,8 @@ function Research_card_investigation({id_section, titulo, texto, imagen}) {
         <div id={id_section} className='max-w-7xl w-full bg-gray-800 bg-opacity-40 backdrop-blur-lg rounded-lg shadow-2xl p-5 mb-10'>
         <div className='flex flex-col lg:flex-row items-center'>
           <div className='lg:w-1/2 w-full p-5'>
-            <h2 className='text-3xl font-bold text-orange-400 mb-4'>{titulo}</h2>
-            <p className='text-lg text-white'>
+            <h2 className='text-3xl font-bold text-orange-400 mb-4 text-justify'>{titulo}</h2>
+            <p className='text-lg text-white text-justify'>
                 {texto}
             </p>
           </div>

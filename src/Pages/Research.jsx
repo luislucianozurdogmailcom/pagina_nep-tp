@@ -13,7 +13,6 @@ function Research() {
       
       {/*<BackgroundVideoResearch />*/}
       <Research_lines />
-      <Divider className='mx-4'/>
       <Research_container />
       {/*<NextUIExample />*/}
       <footer className="w-full bg-gray-800 p-4 text-white text-center">

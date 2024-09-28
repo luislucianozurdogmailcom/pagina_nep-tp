@@ -56,7 +56,7 @@ export default function App(page) {
           </Link>
         </NavbarItem>
         <NavbarItem isActive={page.page == 'Publications'}>
-          <Link href="#" color={page.page == 'Publications' ? 'warning' : 'foreground'}>
+          <Link href="/publications" color={page.page == 'Publications' ? 'warning' : 'foreground'}>
             Publications
           </Link>
         </NavbarItem>
