@@ -5,13 +5,13 @@ function Paper_lines() {
   const rows = [
     {
       key: "1",
-      Title: "Combined Theoretical and Experimental Approaches for Bacterial Aggregation Studies Towards the Improvement of Bioremediation Processes | M.A. Daniel, A.S.Gotting, N.Beraha, M.F.Carusela (2023) [pdf].",
+      Title: "Combined Theoretical and Experimental Approaches for Bacterial Aggregation Studies Towards the Improvement of Bioremediation Processes | M.A. Daniel, A.S.Gotting, N.Beraha, M.F.Carusela",
       Year: "2023",
-      url: "---" // Añade un identificador único
+      url: "https://link.springer.com/article/10.1007/s10098-024-02947-3" // Añade un identificador único
     },
     {
       key: "2",
-      Title: "Thermal diode assisted by geometry under cycling temperature | L. Zurdo, L. Chej, A. Monastra, F. Carusela (2023) [pdf].",
+      Title: "Thermal diode assisted by geometry under cycling temperature | L. Zurdo, L. Chej, A. Monastra, F. Carusela",
       Year: "2023",
       url: "https://arxiv.org/pdf/2212.01203" // Añade un identificador único
     },
@@ -23,13 +23,13 @@ function Paper_lines() {
     },
     {
       key: "4",
-      Title: "Antiresonant driven systems for particle manipulation | M. Florencia Carusela, Paolo Malgaretti, and J. Miguel Rubi (2021) [pdf].",
+      Title: "Antiresonant driven systems for particle manipulation | M. Florencia Carusela, Paolo Malgaretti, and J. Miguel Rubi",
       Year: "2021",
-      url: "https://journals.aps.org/pre/accepted/f0073Y9bL0d13f6f752408d8293d404fd5abbd8f9" // Añade un identificador único
+      url: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.103.062102" // Añade un identificador único
     },
     {
       key: "5",
-      Title: "Computational model for membrane transporters. Computational model for membrane transporters. Potential implications for cancer | M.F.Carusela, J. Miguel Rubi (2021) [pdf]",
+      Title: "Computational model for membrane transporters. Computational model for membrane transporters. Potential implications for cancer | M.F.Carusela, J. Miguel Rubi",
       Year: "2021",
       url: "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2021.642665/full" // Añade un identificador único
     },
@@ -83,9 +83,9 @@ function Paper_lines() {
     },
     {
       key: "14",
-      Title: "Entropy production and rectification efficiency of colloidal transport along a pulsating confinement | M.F.Carusela, J. Miguel Rubi. Journal of Physics: Condensed Matter, 146, 18 (2018)",
+      Title: "Entropy production and rectification efficiency of colloidal transport along a pulsating confinement | M.F.Carusela, J. Miguel Rubi. Journal of Physics: Condensed Matter, 146, 18",
       Year: "2018",
-      url: "---" // Añade un identificador único
+      url: "https://iopscience.iop.org/article/10.1088/1361-648X/aac0c0/meta" // Añade un identificador único
     },
     {
       key: "15",
@@ -95,9 +95,9 @@ function Paper_lines() {
     },
     {
       key: "16",
-      Title: "Entropic rectification and current inversion in a pulsating channel | M.F.Carusela, J. Miguel Rubi, Journal of Chemical Physics, 146, 18 (2017)",
+      Title: "Entropic rectification and current inversion in a pulsating channel | M.F.Carusela, J. Miguel Rubi, Journal of Chemical Physics, 146, 18",
       Year: "2017",
-      url: "---" // Añade un identificador único
+      url: "https://pubs.aip.org/aip/jcp/article-abstract/146/18/184901/195510/Entropic-rectification-and-current-inversion-in-a?redirectedFrom=fulltext" // Añade un identificador único
     },
     {
       key: "17",

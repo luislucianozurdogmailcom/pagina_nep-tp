@@ -30,13 +30,6 @@ function Container(fondo) {
 
   const personas_postdoctorales = [
     {
-        name:'Roberto Barreto'
-        ,ocupation: `I’m a young teacher and professor of physic, graduated in 2010 in the National University of General Sarmiento. Currently, I´m professor in the Introduction to physics subject and I work in the complex systems area, in the group heat transport phenomena addressed by Dra. Maria Florencia Carusela. During this last time, I have been a phd student, Conicet researcher and a researcher-professor at U.N.G.S. Also, I have been doing theory, models and simulations by computer, analyzing the phononic energy transport in nanometric devices. My personal interests are the parallel computational physics and it’s applications in the nonequilibrium statistical mechanics.`
-        ,contact: 'Phone: +54 11 4469-7500, Int: 7212.'
-        ,email: 'rbarreto@campus.ungs.edu.ar'
-        ,image: 'https://nep-tp.ungs.edu.ar/wp-content/uploads/2018/04/Roberto-Barreto-194x300.jpg'
-    },
-    {
         name:'Natalia Beraha'
         ,ocupation: `I am a Physics Teacher and Student of the Doctorate in Science and Technology of the UNGS. I work as a teaching-researcher at the UNGS, in the area of ​​Physics of the Institute of Sciences of the UNGS. My research line is based on the study of the heat transport in systems of low dimension with time-dependent perturbations.`
         ,contact: 'Phone: +54 11 4469-7500, Int: 7212.'
@@ -99,13 +92,6 @@ function Container(fondo) {
   ];
 
   const undergraduate = [
-    {
-        name:'Micaela Cáceres'
-        ,ocupation: ``
-        ,contact: ''
-        ,email: ''
-        ,image: 'https://nep-tp.ungs.edu.ar/wp-content/uploads/2023/10/Micaela_foto-155x300.jpg'
-    }
   ]
 
   return (
@@ -155,7 +141,7 @@ function Container(fondo) {
 
             <div className='h-3 bg-orange-400 mt-10 2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1'></div>
             
-            <div className='2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12'>
+            <div className={`2xl:col-span-4 lg:col-span-3 md:col-span-2 col-span-1 text-center flex items-center justify-center my-12 ${undergraduate.length == 0 ? 'hidden' : ''}`}>
                 <span className='text-5xl font-extralight text-gray-100'>
                     <span className='text-orange-400 font-bold'>Un</span>dergraduate
                 </span>
