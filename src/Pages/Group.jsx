@@ -10,7 +10,7 @@ function Group() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       {/*Barrita de navegación*/}
-      <Navbar page='Group'/>
+      <Navbar page='About us'/>
       
       <Group_text />
       <Container fondo={false}/>
