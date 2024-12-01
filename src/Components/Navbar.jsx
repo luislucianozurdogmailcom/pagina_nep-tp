@@ -6,10 +6,10 @@ import ImageContainer from "../Assets/ImageContainer";
 export default function App(page) {
   const menuItems = [
     "Home",
-    "Group",
+    "Colaborators",
+    "About us",
     "Research",
     "Publications",
-    "Colaborations",
     "New Events",
     "Contact"
   ];
@@ -45,9 +45,14 @@ export default function App(page) {
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={page.page == 'Group'}>
-          <Link href="/group" color={page.page == 'Group' ? 'warning' : 'foreground'}>
-            Group 
+        <NavbarItem isActive={page.page == 'Colaborators'}>
+          <Link href="/home#Colaborators" color={page.page == 'Colaborators' ? 'warning' : 'foreground'}>
+            Colaborators
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive={page.page == 'About us'}>
+          <Link href="/About us" color={page.page == 'About us' ? 'warning' : 'foreground'}>
+            About us 
           </Link>
         </NavbarItem>
         <NavbarItem isActive={page.page == 'Research'}>
@@ -60,18 +65,13 @@ export default function App(page) {
             Publications
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={page.page == 'Colaborations'}>
-          <Link href="#" color={page == 'Colaborations' ? 'warning' : 'foreground'}>
-            Colaborations
-          </Link>
-        </NavbarItem>
         <NavbarItem isActive={page.page == 'New Events'}>
           <Link href="#" color={page == 'New Events' ? 'warning' : 'foreground'}>
             New Events
           </Link>
         </NavbarItem>
         <NavbarItem isActive={page.page == 'Contact'}>
-          <Link href="#" color={page == 'Contact' ? 'warning' : 'foreground'}>
+          <Link href="/contact" color={page.page == 'Contact' ? 'warning' : 'foreground'}>
             Contact
           </Link>
         </NavbarItem>
