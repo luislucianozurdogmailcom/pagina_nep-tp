@@ -11,6 +11,7 @@ const ContactUs = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}>
+<<<<<<< HEAD
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 max-w-7xl mx-auto'>
                 <div className='col-span-1 flex flex-col h-full items-center justify-center my-8'>
                     <span className=' text-5xl font-extralight text-white'>
@@ -39,6 +40,17 @@ const ContactUs = () => {
                         </iframe>
                     </div>
                 </div>
+=======
+            <div className='grid lg:grid-cols-2 gap-2 max-w-7xl min-h-screen mx-auto'>
+                <div className='col-span-1 flex flex-row lg:h-screen h-80 items-center justify-center'>
+                    <span className=' text-5xl font-extralight text-white'>
+                        Contact <span className='text-orange-400 font-bold'>Us</span>
+                    </span>
+                </div>
+                <div className='col-span-1 flex flex-row lg:h-screen items-center justify-center'>
+                    <GlassForm />
+                </div>
+>>>>>>> 4b2e08e3242576523e73d2c40e119c44b036a7b0
             </div>
         </div>
   )
