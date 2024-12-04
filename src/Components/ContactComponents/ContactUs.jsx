@@ -11,7 +11,7 @@ const ContactUs = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}>
-            <div className='grid lg:grid-cols-2 grid-cols-1 gap-2 max-w-7xl mx-auto'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 max-w-7xl mx-auto'>
                 <div className='col-span-1 flex flex-col h-full items-center justify-center my-8'>
                     <span className=' text-5xl font-extralight text-white'>
                         Contact <span className='text-orange-400 font-bold'>Us</span>
