@@ -3,6 +3,24 @@ import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKey
 
 function Paper_lines() {
   const rows = [
+        {
+      key: "33",
+      Title: "Thermal transport across a vacuum gap between two reconstructed Si-nanomembranes",
+      Year: "2025",
+      url: "https://doi.org/10.1016/j.physe.2025.116232" // Añade un identificador único
+    },
+    {
+      key: "32",
+      Title: "Modeling considerations about a microchannel heat sink",
+      Year: "2024",
+      url: "https://doi.org/10.1063/5.0218235" // Añade un identificador único
+    },
+    {
+      key: "31",
+      Title: "Combined theoretical and experimental approaches for bacterial aggregation studies towards the improvement of bioremediation processes",
+      Year: "2024",
+      url: "https://link.springer.com/article/10.1007/s10098-024-02947-3" // Añade un identificador único
+    },
     {
       key: "1",
       Title: "Combined Theoretical and Experimental Approaches for Bacterial Aggregation Studies Towards the Improvement of Bioremediation Processes | M.A. Daniel, A.S.Gotting, N.Beraha, M.F.Carusela",
