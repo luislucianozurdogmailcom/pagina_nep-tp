@@ -38,7 +38,7 @@ const GlassForm = () => {
   };
 
   return (
-    <div className="bg-white bg-opacity-30 backdrop-blur-md p-8 rounded-lg shadow-lg w-11/12 mx-auto">
+    <div className="bg-white bg-opacity-30 backdrop-blur-md p-8 rounded-lg shadow-lg w-10/12 mx-auto">
       <h2 className="text-2xl font-extrabold text-center mb-6 text-gray-100">Send us an <span className='text-orange-400'>Email</span></h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <Input
